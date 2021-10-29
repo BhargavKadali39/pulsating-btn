@@ -40,11 +40,14 @@ body {
     padding: 0;
     border: none;
     box-shadow: -14px 13px 15px #0000005e,
-        19px -12px 15px #0000005e;
+    19px -12px 15px #0000005e;
+    
   }
   .btn-5:hover {
     background: rgb(255, 255, 255);
     color: #000;
+    box-shadow: -15px -8px 15px #0000005e, 14px 9px 15px #0000005e;
+    transition: box-shadow 1s ease-in-out;
   }
   .btn-5:before,
   .btn-5:after{
@@ -56,6 +59,7 @@ body {
     width:0;
     background: rgb(36, 163, 157);
     transition:400ms ease all;
+    
   }
   .btn-5:after{
     right:inherit;
