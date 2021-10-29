@@ -17,14 +17,9 @@ body {
     font-size: 18px;
     color: #676767;
   }
-  .frame {
-    width: max-content;
-    margin: 40px auto;
-    text-align: center;
-  }
+  
   button {
-    margin: 20px;
-    outline: none;
+    margin: 50px 0 0 75px;
   }
   .custom-btn {
     width: 130px;
@@ -44,6 +39,8 @@ body {
     line-height: 42px;
     padding: 0;
     border: none;
+    box-shadow: -14px 13px 15px #0000005e,
+        19px -12px 15px #0000005e;
   }
   .btn-5:hover {
     background: rgb(255, 255, 255);
@@ -57,7 +54,7 @@ body {
     right:0;
     height:2px;
     width:0;
-    background: rgb(118, 207, 15);
+    background: rgb(36, 163, 157);
     transition:400ms ease all;
   }
   .btn-5:after{
@@ -71,6 +68,6 @@ body {
     width:100%;
     transition:1s ease-in;
     transform: rotateX(-90deg);
-    background-color: #e2572d;
+    background-color: #c49124;
   }
   
